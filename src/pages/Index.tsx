@@ -228,9 +228,9 @@ const Index = () => {
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="text-4xl md:text-5xl text-foreground mb-8 text-center font-sans font-normal">2 Brothers. 900 Miles. Built by the Trail.
+              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-8 text-center">
 
-
+              900 Miles. Barefoot. Built by the Trail.
             </motion.h2>
             <motion.div
               custom={1}
@@ -423,9 +423,9 @@ const Index = () => {
               custom={1}
               variants={fadeUp}
               className="font-sans text-sand/80 mb-10 leading-relaxed">
+              More experiences in nature. With the people you love. 
+Built with intention.
 
-              More experiences in nature. With the people you love. Built with
-              intention.
             </motion.p>
             <motion.div custom={2} variants={fadeUp}>
               <WaitlistForm variant="dark" />
