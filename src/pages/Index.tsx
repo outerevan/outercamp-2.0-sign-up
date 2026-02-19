@@ -228,9 +228,9 @@ const Index = () => {
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-8 text-center">900 Miles. Two Brothers. Built by the Trail.
+              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-8 text-center">
 
-
+              900 Miles. Barefoot. Built by the Trail.
             </motion.h2>
             <motion.div
               custom={1}
@@ -247,22 +247,8 @@ const Index = () => {
                 <br />
                 46 days later, 15,800 people were walking with us.
               </p>
-              <p>Our community unlocked our comforts along the way: 
-Shoes.  
-Coffee.  
-Swimming holes.  
-Hot food.  
-Showers. 
-
-
-But what it really was...
-
-Slower mornings.
-Cold water.
-Real fire.
-Shared meals.
-Time outside, together.
-
+              <p>
+                Our community unlocked our comforts along the way:
                 <br />
                 Shoes. Coffee. Swimming holes. Hot food. Showers.
               </p>
@@ -271,9 +257,14 @@ Time outside, together.
               </p>
             </motion.div>
 
-            <motion.div custom={2} variants={fadeUp} className="mt-12 text-center">
+            <motion.div
+              custom={2}
+              variants={fadeUp}
+              className="mt-12 text-center">
 
-              <a href="#final-cta" className="inline-block px-8 py-4 border border-primary text-primary font-sans text-sm tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
+              <a
+                href="#final-cta"
+                className="inline-block px-8 py-4 border border-primary text-primary font-sans text-sm tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
 
                 Join the Founding Waitlist
               </a>
@@ -285,17 +276,26 @@ Time outside, together.
       {/* ─── SECTION 3: WHAT IT'S ABOUT ─── */}
       <section className="py-24 md:py-32 bg-secondary">
         <div className="container mx-auto px-6 max-w-3xl">
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}>
 
-            <motion.h2 custom={0} variants={fadeUp} className="font-serif text-4xl md:text-5xl font-light text-foreground mb-6 text-center">More Space to Slow Down. 
+            <motion.h2
+              custom={0}
+              variants={fadeUp}
+              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-6 text-center">More Space to Reset. 
 
 
             </motion.h2>
-            <motion.p custom={1} variants={fadeUp} className="font-sans text-lg text-muted-foreground leading-relaxed mb-10 text-center">Outercamp 2.0 expands from 5 off-grid yurts to an 11-unit eco-retreat and gathering venue in the Blue Ridge Mountains — designed to create more space for nature, deeper rest, and meaningful gathering.
+            <motion.p
+              custom={1}
+              variants={fadeUp}
+              className="font-sans text-lg text-muted-foreground leading-relaxed mb-10 text-center">
 
-
-
-
+              Outercamp 2.0 is a 2x expansion of our mountain glamping retreat —
+              designed to create more space for nature, deeper rest, and
+              meaningful gathering.
             </motion.p>
             <motion.ul custom={2} variants={fadeUp} className="space-y-3">
               {coreValues.map((v) =>
