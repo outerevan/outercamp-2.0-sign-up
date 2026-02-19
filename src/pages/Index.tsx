@@ -201,10 +201,10 @@ const Index = () => {
             animate="visible"
             custom={1}
             variants={fadeUp}
-            className="font-sans text-lg md:text-xl text-sand/90 max-w-2xl mx-auto mb-10 leading-relaxed font-light">Founding access to our expanded Blue Ridge mountain retreat.     Opening 2026.
+            className="font-sans text-lg md:text-xl text-sand/90 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
 
-
-
+            Join the Founding Waitlist for Our 11-Unit Mountain Eco-Resort
+            Expansion Opening in 2026.
           </motion.h2>
           <motion.div
             initial="hidden"
@@ -228,9 +228,9 @@ const Index = () => {
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="text-4xl md:text-5xl text-foreground mb-8 text-center font-sans font-normal">
+              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-8 text-center">900 Miles. Two Brothers. Built by the Trail.
 
-              900 Miles. Barefoot. Built by the Trail.
+
             </motion.h2>
             <motion.div
               custom={1}
@@ -247,22 +247,22 @@ const Index = () => {
                 <br />
                 46 days later, 15,800 people were walking with us.
               </p>
-              <p>Our community unlocked our comforts along the way:
+              <p>Our community unlocked our comforts along the way: 
+Shoes.  
+Coffee.  
+Swimming holes.  
+Hot food.  
+Showers. 
 
 
-Shoes. 
-Coffee. 
-Swimming holes. 
-Hot food. 
-Showers.
-
-
+But what it really was...
 
 Slower mornings.
 Cold water.
 Real fire.
 Shared meals.
-Time outside.
+Time outside, together.
+
                 <br />
                 Shoes. Coffee. Swimming holes. Hot food. Showers.
               </p>
@@ -287,11 +287,11 @@ Time outside.
         <div className="container mx-auto px-6 max-w-3xl">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
 
-            <motion.h2 custom={0} variants={fadeUp} className="font-serif text-4xl md:text-5xl text-foreground mb-6 text-center font-normal">What Outercamp 2.0 Is Really About?
+            <motion.h2 custom={0} variants={fadeUp} className="font-serif text-4xl md:text-5xl font-light text-foreground mb-6 text-center">More Space to Slow Down. 
 
 
             </motion.h2>
-            <motion.p custom={1} variants={fadeUp} className="font-sans text-lg text-muted-foreground leading-relaxed mb-10 text-center">Outercamp 2.0 is a 2x expansion of our mountain glamping retreat from 5 to 11-units — designed to create more space for nature, deeper rest, and meaningful gathering.
+            <motion.p custom={1} variants={fadeUp} className="font-sans text-lg text-muted-foreground leading-relaxed mb-10 text-center">Outercamp 2.0 expands from 5 off-grid yurts to an 11-unit eco-retreat and gathering venue in the Blue Ridge Mountains — designed to create more space for nature, deeper rest, and meaningful gathering.
 
 
 
@@ -324,9 +324,9 @@ Time outside.
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="font-serif text-4xl md:text-5xl font-light text-foreground">What We're Building
+              className="font-serif text-4xl md:text-5xl font-light text-foreground">
 
-
+              What We're Building
             </motion.h2>
           </motion.div>
 
@@ -415,7 +415,7 @@ Time outside.
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="text-4xl mb-4 font-normal md:text-5xl font-serif">
+              className="font-serif text-4xl md:text-5xl font-light mb-4">
 
               Be Part of the First Footprints.
             </motion.h2>
