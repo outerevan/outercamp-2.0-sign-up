@@ -192,7 +192,7 @@ const Index = () => {
             animate="visible"
             custom={0}
             variants={fadeUp}
-            className="font-serif text-5xl md:text-7xl font-light text-sand-light leading-[1.1] mb-6">
+            className="font-serif text-5xl text-sand-light leading-[1.1] mb-6 font-medium md:text-7xl">
 
             Be First to Experience Outercamp&nbsp;2.0.
           </motion.h1>
@@ -422,8 +422,8 @@ const Index = () => {
             <motion.p
               custom={1}
               variants={fadeUp}
-              className="font-sans text-sand/80 mb-10 leading-relaxed">More experiences in nature. With the people you love.
-Built with intention.
+              className="font-sans text-sand/80 mb-10 leading-relaxed">More experiences in nature. With the people you love. Built with intention.
+
 
 
             </motion.p>
