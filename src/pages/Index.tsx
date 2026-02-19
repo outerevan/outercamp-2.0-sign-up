@@ -39,7 +39,7 @@ const features = [
 {
   icon: Flame,
   title: "The Hike → Plunge → Sauna Circuit",
-  desc: "Start the fire. Take the trail. Waterfall plunge. Return to heat. Repeat."
+  desc: "Start the fire. Take the trail. Return to heat. Cold plunge. Repeat."
 }];
 
 
@@ -228,9 +228,9 @@ const Index = () => {
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-8 text-center">
+              className="text-4xl text-foreground mb-8 text-center font-sans md:text-3xl font-normal">Two Brothers. 900 Miles. Built by the Trail.
 
-              900 Miles. Barefoot. Built by the Trail.
+
             </motion.h2>
             <motion.div
               custom={1}
@@ -284,9 +284,9 @@ const Index = () => {
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-6 text-center">More Space to Reset. 
+              className="font-serif text-4xl md:text-5xl font-light text-foreground mb-6 text-center">
 
-
+              What Outercamp 2.0 Is Really About
             </motion.h2>
             <motion.p
               custom={1}
@@ -423,9 +423,9 @@ const Index = () => {
               custom={1}
               variants={fadeUp}
               className="font-sans text-sand/80 mb-10 leading-relaxed">
+              More experiences in nature. With the people you love. 
+Built with intention.
 
-              More experiences in nature. With the people you love. Built with
-              intention.
             </motion.p>
             <motion.div custom={2} variants={fadeUp}>
               <WaitlistForm variant="dark" />
