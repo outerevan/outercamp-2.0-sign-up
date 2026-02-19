@@ -422,9 +422,9 @@ const Index = () => {
             <motion.p
               custom={1}
               variants={fadeUp}
-              className="font-sans text-sand/80 mb-10 leading-relaxed">
-              More experiences in nature. With the people you love. 
+              className="font-sans text-sand/80 mb-10 leading-relaxed">More experiences in nature. With the people you love.
 Built with intention.
+
 
             </motion.p>
             <motion.div custom={2} variants={fadeUp}>
