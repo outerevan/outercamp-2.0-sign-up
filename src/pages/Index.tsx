@@ -39,7 +39,7 @@ const features = [
 {
   icon: Flame,
   title: "The Hike → Plunge → Sauna Circuit",
-  desc: "Start the fire. Take the trail. Return to heat. Cold plunge. Repeat."
+  desc: "Start the fire. Take the trail. Waterfall plunge. Return to heat. Repeat."
 }];
 
 
