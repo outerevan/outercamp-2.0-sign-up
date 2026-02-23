@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/outercamp-2.0-sign-up/",
   server: {
     host: "::",
     port: 8080,
