@@ -228,7 +228,7 @@ const Index = () => {
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="text-4xl md:text-5xl text-foreground mb-8 text-center font-sans font-normal">2 Brothers. 900 Miles. Built by the Trail.
+              className="text-4xl text-foreground mb-8 text-center font-sans font-normal md:text-4xl">2 Brothers. 900 Miles. Built by the Trail.
 
 
             </motion.h2>
@@ -247,9 +247,12 @@ const Index = () => {
                 <br />
                 46 days later, 15,800 people were walking with us.
               </p>
-              <p>
-                Our community unlocked our comforts along the way:
-                <br />
+              <p>Our community unlocked our comforts along the way:
+Shoes. 
+Coffee. 
+Swimming holes. 
+Hot food.
+Showers.<br />
                 Shoes. Coffee. Swimming holes. Hot food. Showers.
               </p>
               <p className="font-medium text-foreground">
@@ -257,10 +260,7 @@ const Index = () => {
               </p>
             </motion.div>
 
-            <motion.div
-              custom={2}
-              variants={fadeUp}
-              className="mt-12 text-center">
+            <motion.div custom={2} variants={fadeUp} className="mt-12 text-center">
 
               <a
                 href="#final-cta"
@@ -324,9 +324,9 @@ const Index = () => {
             <motion.h2
               custom={0}
               variants={fadeUp}
-              className="font-serif text-4xl md:text-5xl font-light text-foreground">
+              className="font-serif text-4xl md:text-5xl font-light text-foreground">What's Coming in 2026
 
-              What We're Building
+
             </motion.h2>
           </motion.div>
 
