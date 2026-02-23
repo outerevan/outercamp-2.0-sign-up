@@ -201,10 +201,10 @@ const Index = () => {
             animate="visible"
             custom={1}
             variants={fadeUp}
-            className="font-sans text-lg md:text-xl text-sand/90 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+            className="font-sans text-lg md:text-xl text-sand/90 max-w-2xl mx-auto mb-10 leading-relaxed font-light">Join for Founding Access To Our Expanded Blue Ridge Mountain Retreat Opening in 2026.
 
-            Join the Founding Waitlist for Our 11-Unit Mountain Eco-Resort
-            Expansion Opening in 2026.
+
+
           </motion.h2>
           <motion.div
             initial="hidden"
